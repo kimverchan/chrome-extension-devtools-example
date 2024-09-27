@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "jsx": "preserve",
+    "lib": ["esnext", "dom"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "paths": {},
+    "resolveJsonModule": true,
+    "types": ["chrome"],
+    "allowJs": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "**/vite/src/overlay/**",
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/**/*.js"
+  ]
+}

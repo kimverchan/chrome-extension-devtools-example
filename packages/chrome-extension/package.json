@@ -1,0 +1,21 @@
+{
+  "name": "example-chrome-extension",
+  "type": "module",
+  "version": "7.0.0-beta.7",
+  "private": true,
+  "author": "kimverchan",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "directory": "packages/chrome-extension",
+    "type": "git",
+    "url": "git+https://github.com/kimverchan/chrome-extension-devtools-example.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production tsup",
+    "dev": "cross-env NODE_ENV=development tsup --watch"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,32 @@
+{
+  "name": "example-client",
+  "type": "module",
+  "version": "1.0.0",
+  "author": "kimverchan",
+  "license": "MIT",
+  "repository": {
+    "directory": "packages/client",
+    "type": "git",
+    "url": "git+https://github.com/kimverchan/chrome-extension-devtools-example.git"
+  },
+  "exports": {
+    "./*": "./dist/*"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsx ./scripts/pre-build.ts && (pnpm run build:lib & vite build)",
+    "build:lib": "vite build --config vite.lib.config.ts"
+  },
+  "dependencies": {
+    "vue": "^3.5.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "unplugin": "^1.14.1",
+    "unplugin-auto-import": "^0.18.3",
+    "vite": "^5.4.7"
+  }
+}

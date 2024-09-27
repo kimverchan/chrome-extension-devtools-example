@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+
+dist
+
+# IDE
+.idea
+
+.vite-inspect
+auto-imports.d.ts
+
+# Project
+
+packages/chrome-extension/overlay/**/*
+packages/chrome-extension/client/**/*
+packages/vite/client/**/*
+
+.DS_Store
+*.timestamp-*.*
+
+# turborepo
+.turbo

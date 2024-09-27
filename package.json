@@ -1,0 +1,29 @@
+{
+  "name": "chrome-extension-devtools-example",
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@9.11.0",
+  "description": "Devtools Example",
+  "author": "kimverchan",
+  "license": "MIT",
+  "scripts": {},
+  "engines": {
+    "node": ">=18.19.0"
+  },
+  "keywords": [
+    "devtools",
+    "chrome extension",
+    "vue",
+    "vite"
+  ],
+  "devDependencies": {
+    "@types/chrome": "^0.0.272",
+    "@types/fs-extra": "^11.0.4",
+    "cross-env": "^7.0.3",
+    "fs-extra": "^11.2.0",
+    "prettier": "^3.3.3",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
